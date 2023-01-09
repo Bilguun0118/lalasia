@@ -1,0 +1,13 @@
+.flex {display: flex;}
+.flex-d {flex-direction: column;}
+.align-items {align-items: center;}
+.justify-content {justify-content: center;}
+
+
+
+input{
+    width: 810px;
+    height: 84px;
+    font-size: 18px;
+    color: #AFADB5;
+}

@@ -1,11 +1,12 @@
 import { nanoid } from "nanoid";
 import "../style/Sidebar.css";
 
+
 const menuItems = [
   {
     _id: nanoid(),
     name: "Product",
-    link: "../pages/Landing.js",
+    link: "../pages/Products.js",
   },
   {
     _id: nanoid(),
@@ -24,9 +25,9 @@ const menuItems = [
   },
 ];
 
-function Sidebar() {
+export const Sidebar = () => {
   return (
-    <header className="flex align-items space-around">
+    <header className="flex align-items space-between">
       <div className="Logo flex align-items">
         <img src={require("../assets/logo.png")} alt="" />
         <img src={require("../assets/Lalasia.png")} alt="" />
@@ -45,5 +46,3 @@ function Sidebar() {
     </header>
   );
 }
-
-export default Sidebar;

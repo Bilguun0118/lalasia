@@ -4,15 +4,14 @@
 .space-around {justify-content: space-around;}
 .space-between {justify-content: space-between;}
 
-/* .sidebarContainer {
+.sidebarContainer {
     width: 1240px;
     background-color: antiquewhite;
     height: 120px;
-} */
+}
 
 header {
     width: 100%;
-    background-color: antiquewhite;
     height: 60px;
 }
 

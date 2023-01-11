@@ -4,10 +4,34 @@
 .justify-content {justify-content: center;}
 
 
-
-input{
-    width: 810px;
-    height: 84px;
+.landingPageTitle{
+    width: 60%;
+    text-align: center;
+}
+.landingTitle{
+    font-size: 64px;
+    font-weight: bold;
+}
+.landingText {
     font-size: 18px;
+    font-weight: 200;
     color: #AFADB5;
+}
+.search{
+    height: 84px;
+    width: 810px;
+    font-size: 24px;
+    color: #AFADB5;
+
+    box-shadow: -2px 0 .6em #AFADB5;
+}
+
+.search button {
+    width: 170px;
+    height: 54px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #518581;
+    border: none;
 }

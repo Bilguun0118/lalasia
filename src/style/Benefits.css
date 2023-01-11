@@ -1,0 +1,21 @@
+.flex {display: flex}
+.flex-d {flex-direction: column;}
+.align-items {align-items: center;}
+.justify-content {justify-content: center;}
+.space-between {justify-content: space-between;}
+
+.benefitsCategory{
+    color: #ffb23f;
+}
+
+.benefitsText{
+    color: #afadb5
+}
+
+.benefits{
+    width: 394px;
+    height: 285px;
+    padding: 5px;
+    border: 2px solid brown;
+    box-shadow: 5px 0 .5em #afadb5;
+}

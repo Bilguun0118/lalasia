@@ -1,0 +1,20 @@
+.flex {display: flex;}
+.align-items {align-items: center;}
+.justify-content {justify-content: center;}
+.space-around {justify-content: space-around;}
+.space-between {justify-content: space-between;}
+
+nav {
+    width: 1240px;
+    background-color: whitesmoke;
+    height: 100px;
+}
+
+.item{
+    padding-left: 20px;
+}
+
+.iconMenu{
+    padding-left: 20px;
+}
+

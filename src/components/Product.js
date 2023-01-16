@@ -1,43 +1,9 @@
-import { nanoid } from "nanoid";
 import "../style/Product.css";
+import { productCard } from "../data/productCard";
 
-const productCard = [
-  {
-    _id: nanoid(),
-    img: require("../assets/product1.jpg"),
-    category: "Chair",
-    title: "White Aesthetic Chair",
-    text: "Combination of wood and wool",
-    price: "63.47",
-  },
-  {
-    _id: nanoid(),
-    img: require("../assets/product2.png"),
-    category: "Chair",
-    title: "White Aesthetic Chair",
-    text: "Combination of wood and wool",
-    price: "63.47",
-  },
-  {
-    _id: nanoid(),
-    img: require("../assets/product3.png"),
-    category: "Chair",
-    title: "White Aesthetic Chair",
-    text: "Combination of wood and wool",
-    price: "63.47",
-  },
-  {
-    _id: nanoid(),
-    img: require("../assets/product4.png"),
-    category: "Chair",
-    title: "White Aesthetic Chair",
-    text: "Combination of wood and wool",
-    price: "63.47",
-  },
-];
 export const Product = () => {
   return (
-    <div>
+    <>
       <span>Product</span>
       <h2>Out popular product</h2>
       <span>
@@ -59,6 +25,6 @@ export const Product = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };

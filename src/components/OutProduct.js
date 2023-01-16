@@ -11,7 +11,7 @@ export const OutProduct = () => {
             <span>al;sdkfj</span>
             <button className="boxGreen">Learn More</button>
           </div>
-          <img src={require("../assets/outProduct.jpg")} alt="" />
+          <img src={require("../assets/page/landing/outProduct.jpg")} alt="" />
         </div>
         <div>
           <div>
@@ -30,7 +30,7 @@ export const OutProduct = () => {
               </div>
             </div>
           </div>
-          <img src={require("../assets/outProduct2.jpg")} alt="" />
+          <img src={require("../assets/page/landing/outProduct2.jpg")} alt="" />
         </div>
       </div>
     </>

@@ -8,9 +8,9 @@ const testimonials = [
     user: [
       {
         _id: nanoid(),
-        avatar: require("../assets/avatar1.png"),
+        avatar: require("../assets/avatar/avatar1.png"),
         name: "Hanne Cooper",
-        star: require("../assets/star.png"),
+        star: require("../assets/icon-img/star.png"),
         starNumber: "4.3",
       },
     ],
@@ -22,9 +22,9 @@ const testimonials = [
     user: [
       {
         _id: nanoid(),
-        avatar: require("../assets/avatar1.png"),
+        avatar: require("../assets/avatar/avatar1.png"),
         name: "Hanne Cooper",
-        star: require("../assets/star.png"),
+        star: require("../assets/icon-img/star.png"),
         starNumber: "4.3",
       },
     ],
@@ -36,9 +36,9 @@ const testimonials = [
     user: [
       {
         _id: nanoid(),
-        avatar: require("../assets/avatar1.png"),
+        avatar: require("../assets/avatar/avatar1.png"),
         name: "Hanne Cooper",
-        star: require("../assets/star.png"),
+        star: require("../assets/icon-img/star.png"),
         starNumber: "4.3",
       },
     ],

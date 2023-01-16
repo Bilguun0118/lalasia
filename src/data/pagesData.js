@@ -6,7 +6,7 @@ export const LandingPage = [
         _id: nanoid(),
         title: "Discover Furniture With High Quality Wood",
         text: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor.",
-        img: require("../assets/Rectangle.jpg"),
+        img: require("../assets/page/landing/Rectangle.jpg"),
         footer: "Join with me to get special discount",
     }
 ]

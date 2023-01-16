@@ -3,8 +3,12 @@
 
 .products{
     overflow: auto;
+    position: relative;
 }
 
 .productCard {
     border: 1px solid black;
+    margin: 10px;
+    gap: 20px;
+    overflow-x: scroll;
 }

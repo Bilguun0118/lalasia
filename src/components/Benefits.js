@@ -4,19 +4,19 @@ import "../style/Benefits.css";
 const BenefitsCard = [
   {
     _id: nanoid(),
-    img: require("../assets/benefitsCard1.png"),
+    img: require("../assets/page/landing/benefitsCard1.png"),
     title: "Many Choices",
     text: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.",
   },
   {
     _id: nanoid(),
-    img: require("../assets/benefitsCard2.png"),
+    img: require("../assets/page/landing/benefitsCard2.png"),
     title: "Fast and On Time",
     text: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.",
   },
   {
     _id: nanoid(),
-    img: require("../assets/benefitsCard3.png"),
+    img: require("../assets/page/landing/benefitsCard3.png"),
     title: "Affordable Price",
     text: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.",
   },

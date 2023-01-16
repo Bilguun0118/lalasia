@@ -28,12 +28,12 @@ const menuItems = [
 const menuIcons = [
   {
     _id: nanoid(),
-    img: require("../assets/bag.png"),
+    img: require("../assets/icon-img/bag.png"),
     link: "product",
   },
   {
     _id: nanoid(),
-    img: require("../assets/user.png"),
+    img: require("../assets/icon-img/user.png"),
     link: "about-us",
   },
 ];
@@ -43,8 +43,8 @@ export const NavBar = () => {
     // <header className="flex align-items space-between">
     <nav className="flex align-items space-between">
       <Link to="/" className="Logo flex align-items">
-        <img src={require("../assets/logo.png")} alt="" />
-        <img src={require("../assets/Lalasia.png")} alt="" />
+        <img src={require("../assets/icon-img/logo.png")} alt="" />
+        <img src={require("../assets/icon-img/Sketch.png")} alt="" />
       </Link>
       <div className="flex align-items space-between ">
         {menuItems.map((e) => (

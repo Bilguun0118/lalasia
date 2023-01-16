@@ -10,7 +10,7 @@ export const ArticleCard = [
         user: [
             {
                 _id: nanoid(),
-                img: require("../assets/page/article/avatar1.png"),
+                img: require("../assets/avatar/avatar1.png"),
                 name: "Morgan Goldberg",
                 date: "fridey 14 2022",
             }
@@ -25,7 +25,7 @@ export const ArticleCard = [
         user: [
             {
                 _id: nanoid(),
-                img: require("../assets/page/article/avatar2.png"),
+                img: require("../assets/avatar/avatar2.png"),
                 name: "Morgan Goldberg",
                 date: "fridey 14 2022",
             }
@@ -40,7 +40,7 @@ export const ArticleCard = [
         user: [
             {
                 _id: nanoid(),
-                img: require("../assets/page/article/avatar2.png"),
+                img: require("../assets/avatar/avatar2.png"),
                 name: "Morgan Goldberg",
                 date: "fridey 14 2022",
             }
@@ -55,7 +55,7 @@ export const ArticleCard = [
         user: [
             {
                 _id: nanoid(),
-                img: require("../assets/page/article/avatar2.png"),
+                img: require("../assets/avatar/avatar2.png"),
                 name: "Morgan Goldberg",
                 date: "fridey 14 2022",
             }
@@ -70,7 +70,7 @@ export const ArticleCard = [
         user: [
             {
                 _id: nanoid(),
-                img: require("../assets/page/article/avatar2.png"),
+                img: require("../assets/avatar/avatar2.png"),
                 name: "Morgan Goldberg",
                 date: "fridey 14 2022",
             }

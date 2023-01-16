@@ -38,7 +38,7 @@ export const Footer = () => {
     <footer className="flex ">
       <div>
         <div>
-          <img src={require("../assets/logo.png")} alt="logo" />
+          <img src={require("../assets/icon-img/logo.png")} alt="logo" />
           <div>Lalasia</div>
         </div>
         <div>

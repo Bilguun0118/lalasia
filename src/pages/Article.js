@@ -8,7 +8,7 @@ export const Article = () => {
         <>
           <h1>{data.title}</h1>
           <span>{data.text}</span>
-          <img src={data.img} alt="" />
+          {/* <img src={data.img} alt="" /> */}
         </>
       ))}
       <h1>Article</h1>
@@ -16,7 +16,7 @@ export const Article = () => {
         We display products based on the latest products we have, if you want to
         see our old products please enter the name of the item
       </span>
-      <div>
+      {/* <div>
         <img
           src={require("../assets/page/article/ArticlePage.png")}
           alt="img"
@@ -29,7 +29,7 @@ export const Article = () => {
           </span>
           avatar
         </div>
-      </div>
+      </div> */}
       <div>
         <span>Daily News</span>
         <h2>Today top headlines</h2>
@@ -42,7 +42,7 @@ export const Article = () => {
             <div>
               {card.user.map((avatar) => (
                 <>
-                  <img src={avatar.img} alt="" />
+                  {/* <img src={avatar.img} alt="" /> */}
                   <span>{avatar.name}</span>
                   <span>{avatar.date}</span>
                 </>
@@ -69,7 +69,7 @@ export const Article = () => {
         </div>
         {ArticleCard.map((card) => (
           <>
-            <img src={card.img} alt="" />
+            {/* <img src={card.img} alt="" /> */}
             <div>
               <span>{card.cotegory}</span>
               <h2>{card.title}</h2>
@@ -77,7 +77,7 @@ export const Article = () => {
               <div>
                 {card.user.map((avatar) => (
                   <>
-                    <img src={avatar.img} alt="" />
+                    {/* <img src={avatar.img} alt="" /> */}
                     <h2>{avatar.name}</h2>
                     <span>{avatar.date}</span>
                   </>

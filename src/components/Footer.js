@@ -1,4 +1,5 @@
 import "../App.css";
+import "../style/Footer.css";
 import { nanoid } from "nanoid";
 
 const footerData = [
@@ -35,21 +36,23 @@ const footerData = [
 
 export const Footer = () => {
   return (
-    <footer className="flex ">
+    <footer className="flex align-items space-between">
       <div>
-        <div>
+        <div className="logoStyle flex align-items">
           <img src={require("../assets/icon-img/logo.png")} alt="logo" />
           <div>Lalasia</div>
         </div>
-        <div>
-          Lalasia is digital agency that help you make better experience iaculis
-          cras in.
+        <div className="footerText">
+          <span>
+            Lalasia is digital agency that help you make better experience
+            iaculis cras in.
+          </span>
         </div>
       </div>
-      <div className="flex">
-        <div className="flex ">
+      <div className="footerCategory ">
+        <div className="footerCategorys flex space-between">
           {footerData.map((data) => (
-            <div className="flex flex-d">
+            <div className="flex flex-d align-start space-around">
               <h2>{data.Title}</h2>
               {data.category.map((categorys) => (
                 <span>{categorys.name}</span>

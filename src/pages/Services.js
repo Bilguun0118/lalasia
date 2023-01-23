@@ -1,5 +1,7 @@
+import "../App.css"
 import { nanoid } from "nanoid";
 import { ServicesPage } from "../data/pagesData";
+
 
 const Servic = [
   {
@@ -64,7 +66,7 @@ export const Services = () => {
       <div>
         <div>
           <div>
-            <span>Protofolia</span>
+            <span className="textCategory">Protofolia</span>
             <h2>Amazing projext we've done before</h2>
           </div>
           <div>

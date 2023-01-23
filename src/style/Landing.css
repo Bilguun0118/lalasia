@@ -3,7 +3,9 @@
 .align-items {align-items: center;}
 .justify-content {justify-content: center;}
 
-
+.landingTitle{
+    height: 50vh;
+}
 .landingPageTitle{
     width: 60%;
     text-align: center;

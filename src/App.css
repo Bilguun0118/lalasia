@@ -12,11 +12,13 @@
 
  .flex {display: flex;}
  .flex-d {flex-direction: column;}
+ .flex-row {flex-direction: row;}
  .align-items {align-items: center;}
  .align-start {align-items: flex-start;}
  .justify-content {justify-content: center;}
  .space-around {justify-content: space-around;}
  .space-between {justify-content: space-between;}
+ .textCategory { color: #ffb23f; }
 
 
  .Container {
@@ -51,4 +53,23 @@
   background-color: #2196F3;
   padding: 10px;
   border: 1px white solid;
+}
+
+.input {
+  width: 1080px;
+  height: 50px;
+  font-size: 45px;
+  position: absolute;
+  top: 42%;
+  left: 30%;
+}
+
+.input input{
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.landingPage{
+  position: relative;
 }

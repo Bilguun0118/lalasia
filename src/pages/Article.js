@@ -1,5 +1,6 @@
 import { ArticleCard } from "../data/articleCard";
 import { ArticlePage } from "../data/pagesData";
+import "../App.css"
 
 export const Article = () => {
   return (
@@ -18,7 +19,7 @@ export const Article = () => {
         We display products based on the latest products we have, if you want to
         see our old products please enter the name of the item
       </span>
-      {/* <div>
+      <div>
         <img
           src={require("../assets/page/article/ArticlePage.png")}
           alt="img"
@@ -31,9 +32,9 @@ export const Article = () => {
           </span>
           avatar
         </div>
-      </div> */}
+      </div>
       <div>
-        <span>Daily News</span>
+        <span className="textCategory">Daily News</span>
         <h2>Today top headlines</h2>
         {ArticleCard.map((card) => (
           <>

@@ -1,5 +1,6 @@
 import { PeopleCard } from "../data/aboutUsData";
 import { AboutUsPage } from "../data/pagesData";
+import "../App.css"
 
 export const AboutUs = () => {
   return (
@@ -16,7 +17,7 @@ export const AboutUs = () => {
 
       <div>
         <div>
-          <span>Out Mission</span>
+          <span className="textCategory">Out Mission</span>
           <h2>Out team dedicated to help dinf smart home product</h2>
           <div>
             <div>
@@ -50,7 +51,7 @@ export const AboutUs = () => {
       <div>
         <div>
           <div>
-            <span>Our Team</span>
+            <span className="textCategory">Our Team</span>
             <h2>Meet our leading and strong team</h2>
           </div>
           <div>

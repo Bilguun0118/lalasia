@@ -1,0 +1,23 @@
+.input {
+    width: 1080px;
+    height: 84px;
+    font-size: 45px;
+    position: absolute;
+    padding: 0 10px;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    align-items: center;
+    top: 46%;
+    background-color: white;
+    border: 1px solid rgb(174, 174, 174);
+  }
+  
+  .input input{
+    width: 80%;
+    height: 47px;
+    font-size: 40px;
+    border: none;
+    
+  }

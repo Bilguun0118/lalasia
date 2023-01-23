@@ -1,6 +1,7 @@
 import "../style/Landing.css";
 import "../App.css";
-// import { RiSearch2Line } from "react-icons/ri";
+import { Input } from "../components/index"
+
 import {
   Benefits,
   Product,
@@ -15,11 +16,12 @@ export const Landing = () => {
   return (
     <div className="flex flex-d align-items justify-content">
       {LandingPage.map((data) => (
-        <div>
-          <div className="containerTitle flex flex-d align-items justify-content">
+        <div className="landingPage">
+          <div className="containerTitle flex flex-d align-items justify-content landingTitle">
             <h1 className="bigTitle">{data.title}</h1>
             <span className="bigText">{data.text}</span>
           </div>
+          <Input/>
           <img src={data.img} alt="" />
         </div>
       ))}

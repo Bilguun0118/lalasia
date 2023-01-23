@@ -27,7 +27,7 @@ export const Benefits = () => {
     <div className="flex flex-d align-items justify-content">
       <div className="flex align-items justify-content">
         <div>
-          <span className="benefitsCategory">benefits</span>
+          <span className="textCategory">benefits</span>
           <h2>Benefits when using our services</h2>
         </div>
         <div>

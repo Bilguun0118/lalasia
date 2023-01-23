@@ -44,7 +44,7 @@ export const NavBar = () => {
     <nav className="flex align-items space-between">
       <Link to="/" className="Logo flex align-items">
         <img src={require("../assets/icon-img/logo.png")} alt="" />
-        <img src={require("../assets/icon-img/Sketch.png")} alt="" />
+        <img src={require("../assets/page/landing/Lalasia.png")} alt="" />
       </Link>
       <div className="flex align-items space-between ">
         {menuItems.map((e) => (

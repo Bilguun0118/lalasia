@@ -23,3 +23,32 @@
   width: 1240px;
  }
 
+ .containerTitle{
+  height: 300px;
+ }
+.bigTitle{
+  width: 750px;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+.bigText{
+  width: 800px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #AFADB5;
+  margin-top: 20px;
+
+}
+
+.productCard{
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  border: 1px white solid;
+}

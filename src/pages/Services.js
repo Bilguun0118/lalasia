@@ -42,11 +42,13 @@ const Servic = [
 
 export const Services = () => {
   return (
-    <>
+    <div className="flex flex-d align-items justify-content">
       {ServicesPage.map((data) => (
         <>
-          <h1>{data.title}</h1>
-          <span>{data.text}</span>
+          <div className="containerTitle flex flex-d align-items justify-content">
+            <h1 className="bigTitle">{data.title}</h1>
+            <span className="bigText">{data.text}</span>
+          </div>
           <img src={data.img} alt="" />
         </>
       ))}
@@ -83,7 +85,6 @@ export const Services = () => {
         <h1>Are you interested work with us? </h1>
         <button>Let's Talk</button>
       </div>
-
-    </>
+    </div>
   );
 };

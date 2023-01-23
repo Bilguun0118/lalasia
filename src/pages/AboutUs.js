@@ -3,15 +3,17 @@ import { AboutUsPage } from "../data/pagesData";
 
 export const AboutUs = () => {
   return (
-    <>
+    <div className="flex flex-d align-items justify-content">
       {AboutUsPage.map((data) => (
         <>
-          <h1>{data.title}</h1>
-          <span>{data.text}</span>
+          <div className="containerTitle flex flex-d align-items justify-content">
+            <h1 className="bigTitle">{data.title}</h1>
+            <span className="bigText">{data.text}</span>
+          </div>
           <img src={data.img} alt="" />
         </>
       ))}
-    
+
       <div>
         <div>
           <span>Out Mission</span>
@@ -72,7 +74,6 @@ export const AboutUs = () => {
         <h2>Are you interested work with us?</h2>
         <button>Let's Talk</button>
       </div>
-
-    </>
+    </div>
   );
 };

@@ -3,12 +3,14 @@ import { ArticlePage } from "../data/pagesData";
 
 export const Article = () => {
   return (
-    <>
+    <div className="flex flex-d align-items justify-content">
       {ArticlePage.map((data) => (
         <>
-          <h1>{data.title}</h1>
-          <span>{data.text}</span>
-          {/* <img src={data.img} alt="" /> */}
+          <div className="containerTitle flex flex-d align-items justify-content">
+            <h1 className="bigTitle">{data.title}</h1>
+            <span className="bigText">{data.text}</span>
+          </div>
+          <img src={data.img} alt="" />
         </>
       ))}
       <h1>Article</h1>
@@ -92,7 +94,6 @@ export const Article = () => {
         <h2>Subscribe our newsletter</h2>
         <button>Let's Talk</button>
       </div>
-
-    </>
+    </div>
   );
 };

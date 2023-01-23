@@ -4,11 +4,13 @@ import { ProductsPage } from "../data/pagesData";
 
 export const Products = () => {
   return (
-    <>
-    {ProductsPage.map((data) => (
+    <div className="flex flex-d align-items justify-content">
+      {ProductsPage.map((data) => (
         <>
-          <h1>{data.title}</h1>
-          <span>{data.text}</span>
+          <div className="containerTitle flex flex-d align-items justify-content">
+            <h1 className="bigTitle">{data.title}</h1>
+            <span className="bigText">{data.text}</span>
+          </div>
           <img src={data.img} alt="" />
         </>
       ))}
@@ -29,9 +31,9 @@ export const Products = () => {
             <span>Sort By</span>
           </div>
         </div>
-        <div className="flex">
+        <div className="productCard">
           {productCard.map((e) => (
-            <div key={e._id} className="flex">
+            <div key={e._id} className="">
               <img src={e.img} alt="img" />
               <span>{e.category}</span>
               <h2>{e.title}</h2>
@@ -41,7 +43,7 @@ export const Products = () => {
           ))}
         </div>
       </div>
-      <nav className="pagination flex flex-d">
+      {/* <nav className="pagination flex flex-d">
         <ul className="pagination">
           <li className="page-item">
             <a className="page-link" href="#">
@@ -69,7 +71,7 @@ export const Products = () => {
             </a>
           </li>
         </ul>
-      </nav>
-    </>
+      </nav> */}
+    </div>
   );
 };

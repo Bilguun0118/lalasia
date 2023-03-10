@@ -18,7 +18,7 @@
  .justify-content {justify-content: center;}
  .space-around {justify-content: space-around;}
  .space-between {justify-content: space-between;}
- .textCategory { color: #ffb23f; }
+ .textCategory { color: #ffb23f;}
 
 
  .Container {
@@ -45,7 +45,7 @@
 
 }
 
-.productCard{
+/* .productCard{
   display: grid;
   column-gap: 50px;
   row-gap: 50px;
@@ -53,7 +53,7 @@
   background-color: #2196F3;
   padding: 10px;
   border: 1px white solid;
-}
+} */
 
 .input {
   width: 1080px;

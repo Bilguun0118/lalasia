@@ -1,6 +1,6 @@
 import "../style/Landing.css";
 import "../App.css";
-import { Input } from "../components/index"
+import { Input, Footer } from "../components/index"
 
 import {
   Benefits,

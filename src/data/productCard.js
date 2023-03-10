@@ -3,7 +3,7 @@ import { nanoid } from "nanoid"
 export const productCard = [
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product1.jpg"),
+      img: require("../assets/productsCard/Rectangle 23.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -11,7 +11,7 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product2.png"),
+      img: require("../assets/productsCard/Rectangle.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -19,7 +19,7 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product3.png"),
+      img: require("../assets/productsCard/Rectangle23.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -27,7 +27,7 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product4.png"),
+      img: require("../assets/productsCard/Rectangle3.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -35,7 +35,7 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product4.png"),
+      img: require("../assets/productsCard/Rectangle5.png"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -43,7 +43,7 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product4.png"),
+      img: require("../assets/productsCard/Rectangle6.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
@@ -51,7 +51,23 @@ export const productCard = [
     },
     {
       _id: nanoid(),
-      img: require("../assets/page/landing/product4.png"),
+      img: require("../assets/productsCard/Rectangle7.jpg"),
+      category: "Chair",
+      title: "White Aesthetic Chair",
+      text: "Combination of wood and wool",
+      price: "63.47",
+    },
+    {
+      _id: nanoid(),
+      img: require("../assets/productsCard/Rectangle8.jpg"),
+      category: "Chair",
+      title: "White Aesthetic Chair",
+      text: "Combination of wood and wool",
+      price: "63.47",
+    },
+    {
+      _id: nanoid(),
+      img: require("../assets/productsCard/Rectangle9.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",

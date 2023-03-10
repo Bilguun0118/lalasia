@@ -1,9 +1,12 @@
-import { productCard } from "../data/productCard";
 import "../App.css";
+import "../style/Product.css";
 import { ProductsPage } from "../data/pagesData";
+import { Input, Footer } from "../components/index";
+import { productCard } from "../data/productCard";
 
 export const Products = () => {
   return (
+    //products endees ehlej bn
     <div className="flex flex-d align-items justify-content">
       {ProductsPage.map((data) => (
         <>
@@ -14,16 +17,17 @@ export const Products = () => {
           <img src={data.img} alt="" />
         </>
       ))}
-      <div>
+      <div className="sortfilter flex space-around">
         <div>
+          {/* <Input />x */}
           <input type="text" placeholder=" Search property" />
-          <button>Find Now</button>
+          <button className="aav">Find Now</button>
         </div>
         <button>Filter</button>
       </div>
-      <div>
-        <div>
-          <div>
+      <div className="products">
+        <div className="flex space-between">
+          <div className="flex align-items">
             <h1>Total Product</h1>
             <span>184</span>
           </div>
@@ -31,9 +35,9 @@ export const Products = () => {
             <span>Sort By</span>
           </div>
         </div>
-        <div className="productCard">
+        <div className="productCards">
           {productCard.map((e) => (
-            <div key={e._id} className="">
+            <div key={e._id} className="product-cards flex flex-d space-around align-start">
               <img src={e.img} alt="img" />
               <span>{e.category}</span>
               <h2>{e.title}</h2>

@@ -1,6 +1,6 @@
 import "./App.css";
 import {Footer, NavBar, Product } from "./components";
-import { Landing, Products, Services, Article, AboutUs  } from "./pages";
+import { Landing, Products, ProductDetail, Services, Article, AboutUs  } from "./pages";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="product/*" element={<Products />} >
-          <Route path="card" element={<Product/>}/>  
+          <Route path="product/" element={<Product/>}/>  
         </Route>
         <Route path="services" element={<Services />} />
         <Route path="article" element={<Article />} />

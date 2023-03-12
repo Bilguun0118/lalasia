@@ -41,7 +41,7 @@ const menuIcons = [
 export const NavBar = () => {
   return (
     // <header className="flex align-items space-between">
-    <nav className="flex align-items space-between">
+    <nav className="flex align-items space-around">
       <Link to="/" className="Logo flex align-items">
         <img src={require("../assets/icon-img/logo.png")} alt="" />
         <img src={require("../assets/page/landing/Lalasia.png")} alt="" />

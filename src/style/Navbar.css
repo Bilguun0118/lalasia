@@ -5,13 +5,35 @@
 .space-between {justify-content: space-between;}
 
 nav {
-    width: 1240px;
+    width: 100%;
     background-color: whitesmoke;
     height: 100px;
 }
 
 .item{
-    padding-left: 20px;
+    margin-left: 30px;
+    color: #151412;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    /* display: block; */
+}
+.item::after{
+    content: "";
+    position: absolute;
+    text-decoration: underline;
+    background-color: #518581;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    opacity: 0;
+}
+
+.item:focus::after{
+    opacity: 1;
+    color: #518581;
 }
 
 .iconMenu{

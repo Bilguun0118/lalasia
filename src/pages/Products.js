@@ -44,7 +44,7 @@ export const Products = () => {
         </div>
         <div className="productCards">
           {productCard.map((e) => (
-            <Link key={e._id} className="product-cards flex flex-d" onChange={ProductDetail}>
+            <Link key={e._id} className="product-cards flex flex-d" to={e._id}>
               <div className="card-img">
                 <img src={e.img} alt="img" />
               </div>

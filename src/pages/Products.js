@@ -1,6 +1,6 @@
 import "../App.css";
 import "../style/Product.css";
-// import { CgSortAz } from "react-icons/cg";
+import { CgSortAz } from "react-icons/cg";
 import { ProductsPage } from "../data/pagesData";
 import { productCard } from "../data/productCard";
 import { ProductDetail } from "./index";
@@ -21,7 +21,6 @@ export const Products = () => {
       ))}
       <div className="sortfilter flex space-around">
         <div>
-          {/* <Input />x */}
           <input type="text" placeholder=" Search property" />
           <button className="aav">Find Now</button>
         </div>
@@ -34,27 +33,30 @@ export const Products = () => {
             <span className="total-product-count">184</span>
           </div>
           <div className="product-sort-button flex align-items justify-content">
-            {/* <CgSortAz size="2em" /> */}
-            <img
-              src={require("../assets/icon-img/vuesax/linear/sort.png")}
-              alt="sort"
-            />
+            <CgSortAz size="2em" />
             <span className="product-sort">Sort By</span>
           </div>
         </div>
         <div className="productCards">
           {productCard.map((e) => (
-            <Link key={e._id} className="product-cards flex flex-d" to={e._id}>
-              <div className="card-img">
-                <img src={e.img} alt="img" />
+            <>
+              <div
+                key={e._id}
+                className="product-cards flex flex-d"
+                to={e.link}
+              >
+                <div className="card-img">
+                  <img src={e.img} alt="img" />
+                </div>
+                <div className="card-description-text flex flex-d space-between">
+                  <span className="card-categoryName">{e.category}</span>
+                  <h2 className="card-productName">{e.title}</h2>
+                  <span className="card-material-description">{e.text}</span>
+                  <span className="card-price">{`$` + e.price}</span>
+                  <Link to={`/products/${e._id}`}>Detail &#8594;</Link>
+                </div>
               </div>
-              <div className="card-description-text flex flex-d space-between">
-                <span className="card-categoryName">{e.category}</span>
-                <h2 className="card-productName">{e.title}</h2>
-                <span className="card-material-description">{e.text}</span>
-                <span className="card-price">{`$` + e.price}</span>
-              </div>
-            </Link>
+            </>
           ))}
           console.log(onClick);
           {/* pagination ... */}

@@ -4,4 +4,4 @@ export { AboutUs } from './AboutUs';
 export { DetailArticle } from './DetailArticle';
 export { Products } from './Products';
 export { Services } from './Services';
-export { ProductDetail } from './ProductDetail';
+export { SingleProduct } from './SingleProduct';

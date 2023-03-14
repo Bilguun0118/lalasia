@@ -8,6 +8,7 @@ export const productCard = [
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
       price: "63.47",
+      link: '1',
     },
     {
       _id: nanoid(),
@@ -16,6 +17,7 @@ export const productCard = [
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
       price: "63.47",
+      link: '2',
     },
     {
       _id: nanoid(),
@@ -24,6 +26,7 @@ export const productCard = [
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
       price: "63.47",
+      link: '3',
     },
     {
       _id: nanoid(),

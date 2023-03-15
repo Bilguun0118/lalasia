@@ -4,7 +4,7 @@ import { productCard } from "../data/productCard";
 export const Product = () => {
   return (
     <>
-      <span>Product</span>
+      <span>Product mongolia</span>
       <h2>Out popular product</h2>
       <span>
         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim
@@ -14,6 +14,7 @@ export const Product = () => {
         {productCard.map((e) => (
           <div className="productCard">
             <img
+              key={e._id}
               src={e.img}
               alt=""
               style={{ height: "360px", width: "394px" }}

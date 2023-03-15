@@ -1,0 +1,23 @@
+.singleProduct-Title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+}
+
+.singleProduct-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #afadb5;
+    line-height: 180%;
+}
+
+.singleProduct-price {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.ColorText {
+    font-size: 18px;
+    font-weight: 600;
+}

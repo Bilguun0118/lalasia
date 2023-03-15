@@ -1,5 +1,5 @@
 import "./App.css";
-import { Footer, NavBar, Product } from "./components";
+import { Footer, NavBar } from "./components";
 import {
   Landing,
   Products,
@@ -16,7 +16,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/products" element={<Products />}></Route>
+        <Route path="/products" element={<Products />} />
         <Route path="/products/:productId" element={<SingleProduct />} />
         <Route path="services" element={<Services />} />
         <Route path="article" element={<Article />} />

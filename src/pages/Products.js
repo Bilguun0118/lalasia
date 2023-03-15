@@ -3,7 +3,6 @@ import "../style/Product.css";
 import { CgSortAz } from "react-icons/cg";
 import { ProductsPage } from "../data/pagesData";
 import { productCard } from "../data/productCard";
-import { ProductDetail } from "./index";
 import { Link } from "react-router-dom";
 
 export const Products = () => {
@@ -38,27 +37,25 @@ export const Products = () => {
           </div>
         </div>
         <div className="productCards">
-          {productCard.map((e) => (
+          {productCard.map((product) => (
             <>
               <div
-                key={e._id}
                 className="product-cards flex flex-d"
-                to={e.link}
               >
                 <div className="card-img">
-                  <img src={e.img} alt="img" />
+                  <img src={product.img} alt="img" />
                 </div>
                 <div className="card-description-text flex flex-d space-between">
-                  <span className="card-categoryName">{e.category}</span>
-                  <h2 className="card-productName">{e.title}</h2>
-                  <span className="card-material-description">{e.text}</span>
-                  <span className="card-price">{`$` + e.price}</span>
-                  <Link to={`/products/${e._id}`}>Detail &#8594;</Link>
+                  <span className="card-categoryName">{product.category}</span>
+                  <h2 className="card-productName">{product.title}</h2>
+                  <span className="card-material-description">{product.text}</span>
+                  <span className="card-price">{`$` + product.price}</span>
+                  <Link to={`/products/${product._id}`}>Detail &#8594;</Link>
                 </div>
               </div>
             </>
           ))}
-          console.log(onClick);
+          
           {/* pagination ... */}
         </div>
       </div>

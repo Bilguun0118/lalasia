@@ -1,33 +1,39 @@
 import "../App.css";
+import "../style/SingleProduct.css"
 import { productCard } from "../data/productCard";
-import { Link, useNavigate, useParams } from "react-router-dom"
-import { Products } from ".";
-import { Product } from "../components";
+import { useNavigate, useParams } from "react-router-dom";
 
 export const SingleProduct = () => {
-
   const navigate = useNavigate();
   const { productId } = useParams();
 
-  const singleProduct = productCard.find(e => e._id === parseInt(productId) )
+  // get product
+  const singleProduct = productCard.find(
+    (product) => product._id === productId
+  );
 
-  const {  title, price, img, category } = singleProduct;
-  
-  console.log("product id", productId );
+  console.log(typeof productId);
+
+  const { _id, img, category, title, text, price, link, details } =
+    singleProduct;
+
+  console.log("product id", productId);
+  console.log("product - ", singleProduct);
 
   return (
     <div className="flex flex-d align-items justify-content">
       <button onClick={() => navigate(-1)}>back</button>
-      <button onClick={() => navigate('/products')}>Product</button>
-      <div className="singleProduct">
-        
-        <div className="img"></div>
-        <div className="texts">
-          <h3>Title</h3>
-          <span>text</span>
-          <span>Color</span>
-          <span>all text</span>
-          <span>$53.2</span>
+      <button onClick={() => navigate("/products")}>Product</button>
+      <div className="singleProduct flex align-items space-around">
+        <div className="img">
+          <img src={img} alt="" />
+        </div>
+        <div className="texts flex align-start flex-d">
+          <h3 className="singleProduct-Title">{title}</h3>
+          <span className="singleProduct-text">{text}</span>
+          <span className="ColorText">Color</span>
+          <span className="singleProduct-text">{details}</span>
+          <span className="singleProduct-price">{`$` + price}</span>
           <div>
             <button>buy Now</button>
             <button>Add to cart</button>

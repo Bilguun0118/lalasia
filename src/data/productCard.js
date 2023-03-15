@@ -7,7 +7,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
       link: '1',
     },
     {
@@ -16,7 +18,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
       link: '2',
     },
     {
@@ -25,8 +29,10 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
-      link: '3',
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
+      link: '3'
     },
     {
       _id: nanoid(),
@@ -34,7 +40,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
       _id: nanoid(),
@@ -42,7 +50,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
       _id: nanoid(),
@@ -50,7 +60,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
       _id: nanoid(),
@@ -58,7 +70,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
       _id: nanoid(),
@@ -66,7 +80,9 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
       _id: nanoid(),
@@ -74,6 +90,8 @@ export const productCard = [
       category: "Chair",
       title: "White Aesthetic Chair",
       text: "Combination of wood and wool",
+      color: "red",
       price: "63.47",
+      details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
 ];

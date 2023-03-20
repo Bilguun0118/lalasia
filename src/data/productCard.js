@@ -2,7 +2,7 @@ import { nanoid } from "nanoid"
 
 export const productCard = [
     {
-      _id: nanoid(),
+      _id: 1,
       img: require("../assets/productsCard/Rectangle 23.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -13,7 +13,7 @@ export const productCard = [
       link: '1',
     },
     {
-      _id: nanoid(),
+      _id: 2,
       img: require("../assets/productsCard/Rectangle.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -24,7 +24,7 @@ export const productCard = [
       link: '2',
     },
     {
-      _id: nanoid(),
+      _id: 3,
       img: require("../assets/productsCard/Rectangle23.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -35,7 +35,7 @@ export const productCard = [
       link: '3'
     },
     {
-      _id: nanoid(),
+      _id: 4,
       img: require("../assets/productsCard/Rectangle3.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -45,7 +45,7 @@ export const productCard = [
       details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
-      _id: nanoid(),
+      _id: 5,
       img: require("../assets/productsCard/Rectangle5.png"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -55,7 +55,7 @@ export const productCard = [
       details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
-      _id: nanoid(),
+      _id: 6,
       img: require("../assets/productsCard/Rectangle6.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -65,7 +65,7 @@ export const productCard = [
       details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
-      _id: nanoid(),
+      _id: 7,
       img: require("../assets/productsCard/Rectangle7.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -75,7 +75,7 @@ export const productCard = [
       details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
-      _id: nanoid(),
+      _id: 8,
       img: require("../assets/productsCard/Rectangle8.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",
@@ -85,7 +85,7 @@ export const productCard = [
       details: "Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis facilisis ligula felis et a parturient aenean. Ac maecenas ultricies felis risus scelerisque duis posuere...",
     },
     {
-      _id: nanoid(),
+      _id: 9,
       img: require("../assets/productsCard/Rectangle9.jpg"),
       category: "Chair",
       title: "White Aesthetic Chair",

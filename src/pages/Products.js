@@ -56,7 +56,6 @@ export const Products = () => {
             </>
           ))}
           
-          {/* pagination ... */}
         </div>
       </div>
     </div>

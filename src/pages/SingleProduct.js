@@ -8,7 +8,7 @@ export const SingleProduct = () => {
   const { productId } = useParams();
 
   // get product
-  const singleProduct = productCard.find((product) => product._id == productId);
+  const singleProduct = productCard.find((product) => product._id === productId);
 
   console.log(typeof productId);
 
